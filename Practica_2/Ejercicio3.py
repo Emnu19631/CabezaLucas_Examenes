@@ -44,7 +44,7 @@ for i in range(1, 4):
 
 if precios:
     promedio = sum(precios) / len(precios)
-    print("Precios válidos ingresados: {}".format(precios))
+    print("Precios  ingresados: {}".format(precios))
     print("Promedio: {:.2f}".format(promedio))
 else:
     print("No se ingresaron precios válidos.")
