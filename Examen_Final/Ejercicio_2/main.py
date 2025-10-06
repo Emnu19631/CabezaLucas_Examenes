@@ -3,12 +3,11 @@ import Ejercicio_2
 def probar_caso(n, indice, caso):
     print(f"\n--- CASO {caso} ---")
     lista = Ejercicio_2.generar_lista(n, indice)
-    if lista:  # solo continúa si la lista es válida
+    if lista:
         sin_repe = Ejercicio_2.numeros_no_repetidos(lista)
         Ejercicio_2.ordenar_lista(sin_repe)
         Ejercicio_2.mayor_par(sin_repe)
 
-# Ejecuciones de prueba
 probar_caso(10, 3, 1)       # Caso 1: Lista de 10, índice válido
 probar_caso(15, 7, 2)       # Caso 2: Lista de 15, índice válido
 probar_caso(8, 12, 3)       # Caso 3: Índice inválido

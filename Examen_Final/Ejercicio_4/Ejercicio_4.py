@@ -19,13 +19,12 @@ def deco_ej4(funcion):
         ahora = datetime.datetime.now()
         h, m, s = ahora.hour, ahora.minute, ahora.second
 
-        print(f"\nEl decorador está siendo ejecutado a las {h} "
-              f"con {m} minutos y {s} segundos")
+        print("\nEl decorador está siendo ejecutado a las {} con {} minutos y {} segundos".format(h, m, s))
         valores = funcion(*args, **kwargs)
 
         suma = sum(valores)
 
-        print(f"Suma de elementos: {suma}")
+        print("Suma de elementos: {}".format(suma))
 
         return valores
 
@@ -35,7 +34,7 @@ def deco_ej4(funcion):
 def mayor_valor(*args, **kwargs):
     valores = list(args) + list(kwargs.values())
     mayor = max(valores)
-    print(f"El mayor valor es: {mayor}")
+    print("El mayor valor es: {}" .format(mayor))
     return valores
 
 if __name__ == "__main__":

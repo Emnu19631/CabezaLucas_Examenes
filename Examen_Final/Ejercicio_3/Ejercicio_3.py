@@ -34,12 +34,11 @@ def registrar_alumno(nombre, edad, *notas):
     ahora = datetime.datetime.now()
     h, m = ahora.hour, ahora.minute
 
-    print(f"{nombre} de {edad} años ha sido registrado a las "
-          f"{h} horas con {m} minutos.")
+    print("{} de {} años ha sido registrado a las {} horas con {} minutos.".format(nombre, edad, h, m))
 
     if notas:
         media = sum(notas) / len(notas)
-        print(f"La media del estudiante es: {media:.2f}")
+        print("La media del estudiante es: {:.2f}".format(media))
     else:
         print("No se ingresaron notas.")
 
