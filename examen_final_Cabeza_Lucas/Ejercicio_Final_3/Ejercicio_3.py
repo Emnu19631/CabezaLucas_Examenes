@@ -49,5 +49,5 @@ if __name__ == "__main__":
     print("\n--- Ejemplo 2 ---")
     registrar_alumno("Ana", 22, 10, 12, 14, 16)
 
-    print("\n--- Ejemplo 3 (menos parámetros) ---")
+    print("\n--- Ejemplo 3 ---")
     registrar_alumno("Luis" )
