@@ -42,7 +42,7 @@ if __name__ == "__main__":
     mayor_valor(1, 2, 3, 4, 5, 6)
 
     print("\n--- Ejemplo 2 ---")
-    mayor_valor(10, 20, 30, value_7=40, value_8=5)
+    mayor_valor(10, 20, 30, valor_7=40, valor_8=5)
 
     print("\n--- Ejemplo 3 ---")
-    mayor_valor(100, 200, 50, value_7=10, value_8=22, value_9=45)
+    mayor_valor(100, 200, 50, valor_7=10, valor_8=22, valor_9=45)
